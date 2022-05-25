@@ -11,6 +11,7 @@ def find_anagram(word, anagram):
     anagram =  anagram.replace(" ", "")
     
     # sort both words in ascending order and check if they are same
+    # This return either True for anagram or False if they are not anagrams
     return sorted(word) == sorted(anagram)
 
 
